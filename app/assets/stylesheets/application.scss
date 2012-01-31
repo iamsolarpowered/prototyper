@@ -1,0 +1,21 @@
+body {
+  margin-top: 40px;
+  padding-top: 2em;
+}
+
+.topbar {
+  h3 {
+    letter-spacing: 0.1em;
+  }
+  .open:before {
+    content: "";
+  }
+}
+
+.open:before {
+  content: "\25BF";
+}
+
+.closed:before {
+  content: "\25B9";
+}
