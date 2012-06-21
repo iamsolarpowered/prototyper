@@ -6,6 +6,7 @@ Prototype applications using Serve, Bootstrap, Faker, Haml and SASS.
 
     $ git clone git://github.com/iamsolarpowered/prototyper.git
     $ cd prototyper
+    $ bundle
     $ serve
 
 ## Copyright
