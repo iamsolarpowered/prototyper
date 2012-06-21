@@ -1,0 +1,9 @@
+!!! 5
+%html
+  %head
+    %title= @page_title || 'Welcome'
+    = stylesheet_link_tag 'http://t.apio.ca/bootstrap/css/bootstrap.min.css'
+    = stylesheet_link_tag '/stylesheets/application.css'
+  %body
+  = render 'shared/header'
+  #main.container= yield

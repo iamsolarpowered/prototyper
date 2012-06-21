@@ -1,0 +1,18 @@
+%h1 
+  Yo!
+  %small #{Faker::Name.name}, how are you??
+
+.row
+  .span4
+    = image_tag 'http://placekitten.com/300/200'
+  .span8
+    - Faker::HipsterIpsum.paragraphs.each do |text|
+      %p= text
+
+%hr
+
+.row
+  - 3.times do
+    .span4
+      %h2= Faker::HipsterIpsum.word.titleize
+      = Faker::HipsterIpsum.paragraph
