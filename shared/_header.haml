@@ -4,7 +4,5 @@
       .pull-right
         .brand= link_to project_name, '/'
       %ul.nav
-        %li= link_to 'Google', 'http://google.com'
-        %li= link_to 'Twitter', 'http://twitter.com'
-        %li= link_to 'NPR Music', 'http://npr.org/music'
-      
+        - nav_links.each do |name, url|
+          %li= link_to name, url
