@@ -2,7 +2,7 @@
   .navbar-inner
     .container
       .pull-right
-        .brand= link_to project_name, '/'
+        = link_to project_name, '/', :class => 'brand'
       %ul.nav
         - nav_links.each do |name, url|
           %li= link_to name, url
