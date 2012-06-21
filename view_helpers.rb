@@ -3,7 +3,7 @@ Bundler.require :default
 
 module ViewHelpers
   def project_name
-    'New Project'
+    'Stelth Project'
   end
 
   def page_title
